@@ -17,7 +17,6 @@
         background: #e4c9b4;
         color: #1a1d25;
         font-size: large;
-        text-shadow: black 0.2em 0.2em 0.2em;
       }
       a:link,
       a:visited {
@@ -25,7 +24,6 @@
         text-decoration: underline;
       }
       a:hover {
-        text-shadow: white 0 0 0.2em;
       }
       div.container {
         top: 0;
@@ -38,13 +36,15 @@
       p {
         display: table-cell;
         vertical-align: middle;
+        text-align: center;
       }
       img.displayed {
         display: block;
         margin: 1em auto;
       }
-      p {
-        text-align: center;
+      div {
+        display: block;
+        max-width: 40rem;
       }
 
       body,
@@ -61,11 +61,11 @@
       <p>
         <img alt="Stupid Systems" class="displayed" src="stupidsystems.png" />
       </p>
-      <p>
+      <div>
         We build concise applications to solve specific problems. Applications
         like <a href="https://www.knowsi.com">Knowsi</a>, the consent manager
         for design researchers.
-      </p>
+      </div>
     </div>
   </body>
 </html>
