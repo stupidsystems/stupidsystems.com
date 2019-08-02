@@ -1,0 +1,72 @@
+<header class="site-header">
+
+  <div class="container txt-center">
+
+    <a href="{{ "/" | prepend: site.baseurl }}" class="author-thumb">
+      <img src="{{ "/images/stupidsystems.png" | prepend: site.baseurl }}" alt="Stupid Systems" class="dot">
+    </a>
+
+    <h1>
+      <small>Hi! Welcome to
+      </small>Stupid Systems<small>. We make software products.</small>
+    </h1>
+    <p>Stupid Systems is an independent product studio building concise software for small problems. Mostly it is
+      <a href="https://andrewlb.com">Andrew Lovett-Barron</a>
+      (with help from his friends).</p>
+    <p>We sometimes consult on new or speculative products. Usually web applications, often with user research, frequently with an customer facing implementation.</p>
+    <p>Interested in working together?</p>
+    <p>
+      <a class="btn" href="mailto:alb@andrewlb.com">Let's chat</a>
+      <hr class="hr">
+      <h2>Some of our Prodcuts</h2>
+      <ul>
+        <li>
+          <p class="image">
+            <a href="https://knowsi.com" target="_blank">
+              <img src="{{ "/images/knowsi.png" | prepend: site.baseurl }}" alt="Knowsi" class="dot">
+            </a>
+          </p>
+          <p>
+            The best way for user researchers to manage participant consent.
+          </p>
+        </li>
+        <li>
+          <p class="image">
+            <a href="http://netgrant.org/" target="_blank">
+              <img src="{{ "/images/grantcalc.png" | prepend: site.baseurl }}" alt="Grant Calculator" class="dot">
+            </a>
+          </p>
+          <p>Built with Dahna Goldstein for New America and Peak Grantmaking</p>
+        </li>
+        <li>
+          <p class="image">
+            <a href="https://www.pedalpedal.club/" target="_blank">
+              <img src="{{ "/images/pedalpedal.png" | prepend: site.baseurl }}" alt="Pedal Pedal Club" class="dot">
+            </a>
+          </p>
+          <p>Reward yourself (and control your spending) as a new cyclist</p>
+        </li>
+        <li>
+          <p class="image">
+            <a href="https://vimeo.com/80308354" target="_blank">
+              <img src="{{ "/images/stoke.png" | prepend: site.baseurl }}" alt="Stoke" class="dot">
+            </a>
+          </p>
+          <p>A large scale interactive installation for Nuit Blanche 2013</p>
+        </li>
+      </ul>
+      <hr class="hr">
+    </p>
+  </div>
+  <ul class="social">
+    {% for item in site.social %}
+      {% for i in item %}
+        <li>
+          <a href="{{ i.link }}" target="_blank">
+            <i class="icon icon-{{ i.slug }}"></i>
+          </a>
+        </li>
+      {% endfor %}
+    {% endfor %}
+  </ul>
+</header>

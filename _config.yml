@@ -1,0 +1,36 @@
+permalink: /:categories/:year/:title/
+markdown: kramdown
+highlighter: pygments
+
+paginate: 2 #6
+comments: true
+paginate_path: "/page/:num"
+
+source: source
+destination: _site
+sass:
+  sass_dir: _scss
+  style: compressed
+
+# Site settings
+title: Andrew Lovett-Barron
+description: "Making things"
+email: alb@andrewlb.com
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "https://andrewlb.com"
+
+google_analytics: UA-11256323-1
+# social footer
+social:
+  email:
+    slug: star
+    link: mailto:alb@andrewlb.com
+  github:
+    slug: github
+    link: http://github.com/readywater
+  twitter:
+    slug: twitter
+    link: http://twitter.com/readywater
+  linkedin:
+    slug: linkedin
+    link: http://linkedin.com/in/andrewlb
