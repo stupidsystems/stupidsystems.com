@@ -13,24 +13,24 @@ sass:
   style: compressed
 
 # Site settings
-title: Andrew Lovett-Barron
-description: "Making things"
-email: alb@andrewlb.com
+title: Stupid Systems
+description: "Concise Software for Small Problems."
+email: andrew@stupidsystems.com
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://andrewlb.com"
+url: "https://stupidsystems.com"
 
 google_analytics: UA-11256323-1
 # social footer
 social:
   email:
     slug: star
-    link: mailto:alb@andrewlb.com
+    link: mailto:andrew@stupidsystems.com
   github:
     slug: github
-    link: http://github.com/readywater
+    link: http://github.com/stupidsystems
   twitter:
     slug: twitter
-    link: http://twitter.com/readywater
+    link: http://twitter.com/stupid_systems
   linkedin:
     slug: linkedin
     link: http://linkedin.com/in/andrewlb
